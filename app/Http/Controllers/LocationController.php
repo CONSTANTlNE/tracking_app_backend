@@ -10,12 +10,16 @@ class LocationController extends Controller
 {
     public function log(Request $request): JsonResponse
     {
-        $data = $request->validate([
-            'latitude' => ['required', 'numeric', 'between:-90,90'],
-            'longitude' => ['required', 'numeric', 'between:-180,180'],
-        ]);
+//        $data = $request->validate([
+//            'latitude' => ['required', 'numeric', 'between:-90,90'],
+//            'longitude' => ['required', 'numeric', 'between:-180,180'],
+//        ]);
+
+        $data = $request->all();
 
         $user = $request->user();
+
+
 
         Log::channel('locations')->info('Location received', [
             'user_id' => $user->id,

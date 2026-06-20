@@ -35,4 +35,9 @@ return [
         ],
     ],
 
+    'fcm' => [
+        'project_id' => env('FCM_PROJECT_ID'),
+        'credentials_path' => storage_path('app/firebase-service-account.json'),
+    ],
+
 ];

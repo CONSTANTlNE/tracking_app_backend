@@ -17,3 +17,7 @@ Route::middleware('auth')->prefix('admin')->name('admin.')->group(function () {
     Route::post('users/{user}/tokens', [TokenController::class, 'store'])->name('users.tokens.store');
     Route::delete('users/{user}/tokens/{tokenId}', [TokenController::class, 'destroy'])->name('users.tokens.destroy');
 });
+
+Route::get('sendfcm',function (){
+
+});

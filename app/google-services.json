@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "99049377658",
+    "project_id": "tracking-65ed2",
+    "storage_bucket": "tracking-65ed2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99049377658:android:56b9913b50859d8e4210c3",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoUGUBqRZv-ogdfMScPi2hot3RFewcXW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
